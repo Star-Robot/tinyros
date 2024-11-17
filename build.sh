@@ -10,3 +10,6 @@ cmake -B build -S . -DCMAKE_BUILD_TYPE=${build_type} -DCMAKE_TOOLCHAIN_FILE=buil
 
 # 编译项目
 cmake --build build -j4
+
+# 安装项⽬
+cmake --install build
